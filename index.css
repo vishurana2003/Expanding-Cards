@@ -1,0 +1,124 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.wrapper{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+
+.card-1{
+    background-image: url('download.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 70px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    border-radius: 40px;
+    padding-left: 10px;
+    
+}
+
+
+.card-2{
+    background-image: url('download\ \(1\).jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 70px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    border-radius: 40px;
+    padding-left: 10px;
+    
+}
+
+.card-3{
+    background-image: url('download\ \(2\).jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 70px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    border-radius: 40px;
+    padding-left: 10px;
+    
+}
+
+
+.card-4{
+    background-image: url('download\ \(3\).jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 70px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    border-radius: 40px;
+    padding-left: 10px;
+    
+}
+
+
+.card-5{
+    background-image: url('download\ \(4\).jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 70px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    border-radius: 40px;
+    padding-left: 10px;
+    
+}
+
+
+.card-6{
+    background-image: url('download\ \(5\).jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 70px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    border-radius: 40px;
+    padding-left: 10px;
+    
+}
+
+.card.active{
+    min-width:70%; 
+    min-height: 60%;
+ }
+
+ 
+
+
+.heading{
+    font-size: 50px;
+    font-weight: 900;
+     opacity: 0;
+}
+
+.heading.non-active{
+    opacity: 1;
+}
+
